@@ -48,8 +48,7 @@ const ProductList = () => {
 
     return (
         <div className={'list'}>
-            nklnk,
-            })}
+            nklnk
         </div>
     );
 };
