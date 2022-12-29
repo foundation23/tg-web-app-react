@@ -26,7 +26,7 @@ const Form = () => {
 
     useEffect(() => {
         tg.MainButton.setParams({
-            tg: 'Отправить данные'
+            text: 'Отправить данные'
         })
     }, [])
 
