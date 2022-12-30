@@ -48,7 +48,7 @@ const ProductList = () => {
 
     return (
         <div className={'list'}>
-            {products}
+            1111
         </div>
     );
 };
