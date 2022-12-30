@@ -14,7 +14,7 @@ function App() {
     }, [])
 
        return (
-        <div className={'app'}>
+        <div className='app'>
             <Header />
             <Routes>
                 <Route index element={<ProductList />}/>
