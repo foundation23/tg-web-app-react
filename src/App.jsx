@@ -16,7 +16,10 @@ function App() {
        return (
         <div className={'app'}>
             <Header />
-                <ProductList />
+            <Routes>
+                <Route index element={<ProductList />}/>
+                <Route path={'form'} element={<Form/>}/>
+            </Routes>
             <button onClick={onToggleButton}>toggle</button>
         </div>
     )
