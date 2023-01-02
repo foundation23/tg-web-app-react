@@ -50,6 +50,7 @@ const ProductList = () => {
         <div className={'list'}>
             {products.map(item => (
                 <ProductItem
+                    key={item.id}
                     product={item}
                     onAdd={onAdd}
                     className={'item'}
