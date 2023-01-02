@@ -48,7 +48,13 @@ const ProductList = () => {
 
     return (
         <div className={'list'}>
-            1233
+            {products.map(item => {
+                <ProductItem
+                    product={item}
+                    onAdd={onAdd}
+                    className={'item'}
+                />
+            })}
         </div>
     );
 };
