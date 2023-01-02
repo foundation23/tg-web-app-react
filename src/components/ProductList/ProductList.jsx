@@ -3,15 +3,17 @@ import "./ProductList.css"
 import ProductItem from "../ProductItem/ProductItem";
 import {useTelegram} from "../../hooks/hooks";
 
+const telephone = "http://img.alicdn.com/imgextra/i4/3166924200/TB2SKl6gbBnpuFjSZFGXXX51pXa_!!3166924200.png"
+
 const products = [
-    {id: '1', title: 'Samsung Galaxy S22 Ultra', price: 83645, description: 'черный фантом'},
-    {id: '2', title: 'Apple iPhone 13', price: 68990, description: 'альпийский зеленый'},
-    {id: '3', title: 'vivo Y35', price: 11990, description: 'черный агат'},
-    {id: '4', title: 'REALME narzo 50A', price: 10990, description: 'зеленый'},
-    {id: '5', title: 'Apple iPhone 13 Pro Max', price: 110790, description: 'альпийский зеленый'},
-    {id: '6', title: 'Apple iPhone 11', price: 40990, description: 'черный'},
-    {id: '7', title: 'Samsung Galaxy S21 FE', price: 43847, description: 'серый'},
-    {id: '8', title: 'Honor 70', price: 40490, description: 'черный'},
+    {id: '1', title: 'Samsung Galaxy S22 Ultra', price: 83645, description: 'черный фантом',img: telephone},
+    {id: '2', title: 'Apple iPhone 13', price: 68990, description: 'альпийский зеленый',img: telephone},
+    {id: '3', title: 'vivo Y35', price: 11990, description: 'черный агат',img: telephone},
+    {id: '4', title: 'REALME narzo 50A', price: 10990, description: 'зеленый',img: telephone},
+    {id: '5', title: 'Apple iPhone 13 Pro Max', price: 110790, description: 'альпийский зеленый',img: telephone},
+    {id: '6', title: 'Apple iPhone 11', price: 40990, description: 'черный',img: telephone},
+    {id: '7', title: 'Samsung Galaxy S21 FE', price: 43847, description: 'серый',img: telephone},
+    {id: '8', title: 'Honor 70', price: 40490, description: 'черный',img: telephone},
 
 ]
 const getTotalPrice = (items = []) => {
